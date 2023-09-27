@@ -9,7 +9,7 @@ int main() {
 	struct timeval current_time_one;	
 	struct timeval current_time_two;
 	int fd = open("empty.txt", O_RDONLY);
-	char buffer[1];	
+	char buffer[0];	
 	int counter = 100;
 	gettimeofday(&current_time_one, NULL);
 	
