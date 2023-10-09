@@ -197,6 +197,9 @@ int main() {
 	}
 	// free mlfq vector
 	delete mlfq;
-
+	// free global
+	delete VOO_DOO;
+	delete boost_controller;
+	delete timer_g;
 	return 0;
 }
