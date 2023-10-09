@@ -11,7 +11,7 @@ You can adjust the parameters of the queues and running processes by reading the
 Note: this simulator have 3 drawbacks and will be improved soon:
 (1) cannot specify job start time, which means it can only assume all processes enter the same time
 (2) cannot simulate io
-(3) the bottom queue still have the method demote() so when creating the bottom queue, so its allotment must be specified a very big number.
+(3) the bottom queue still have the method demote()，so when creating the bottom queue, its allotment must be specified a very big number.
 
 How to tune queues:
 From line 135-144, queues are created with allotment, quantum, level, and its container mlfq, you can use your own values to tune the queues.
