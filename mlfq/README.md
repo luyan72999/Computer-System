@@ -1,4 +1,4 @@
-This simulator employs a round-robin scheduling policy with multilevel feedback queues.
+This simulator employs a round-robin scheduling policy with multilevel feedback queues. \n
 4 of 5 rules in text book are implemented:
 Rule 1: If Priority(A) > Priority(B) run A.
 Rule 2: If Priority(A) == Priority(B), run them in Round-Robin.
